@@ -5,104 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>меню</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <style> 
-        .menu {
-              background: rgb(199, 142, 37);
-              font-family: 'segoe UI', tomato, greenyellow;
-              position: fixed;
-              width: 100% ;
-              font-size: 25px;
-              padding: 15px; 
-              border-bottom: 2px solid rgb(49, 44, 95)
-        }
-        
-        .menu-right {
-position: absolute;
-right: 40px;
-        }
+    <header>
+            <div class="menu">
+                    <span class= "menu-left"> меню </span>
+                    <span class="menu-right"> 
+                           <a href="#">главная</a> > 
+                           <a href="#main">главная</a>
+                           <a href="#footer"> контакты</a>
+                           <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsfUKa0ULqPAn45EKPmlPv_Ydd79LQhxpZmw-IP5LSqhuNELyw">собаки </a>
+                    </span> 
+                   </div>
+    </header>
+    
+    <main id="main" class="main">
+            <div class="banner">
+                    <div class="background"></div>
+                    <div class="banner-title">охотничьи собаки</div>
+                    </div>
 
-        .menu-left {
-font-weight: bold;
-color:black
-        }
+                    <div class="main-cards">
+                        <div class="main-header">
+                            <h1>лучшие собаки мира</h3>
+                            <p>если вам хочется на охоту </p>
+                        </div>
 
-        .menu-right a {
-            color:floralwhite;
-            text-decoration: none;
-            margin-left: 20px 
-
-        }
-.menu-right a:hover {
-    color: red
-}
-        body {
-            margin: 0;
-            background-image: url(макароны.jpg);
-            font-family: 'segoe UI', Tahoma, geneva
-        }
-
-        .email {
-            display: inline-block;
-            margin-top: 80px;
-            color: rgb(21, 33, 68)
-        }
-
-        .email input {
-            border-block-start-color: rgb(0, 0, 0)
-        }
-        
-        .search {
-             margin: auto;
-            width: fit-content;
-             }
-
-             .banner {
-                 width:100%;
-                 height:600px;
-                 background-size: cover;
-             }
-
-             .banner-title {
-                 position: relative;
-                 margin: auto;
-                 width: fit-content;
-                 margin-top:300px;
-                 font-size: 50px;
-                 font-weight: 900;
-             }
-    </style>
-    <div class="menu">
-     <span class= "menu-left"> меню </span>
-     <span class="menu-right"> 
-            <a href="https://ya.ru"> яндекс</a> 
-            <a href="https://sites.google.com/view/firstsitesansanich/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE-%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C-%D1%82%D0%B0%D0%BA%D0%B0%D1%8F"> главная </a>
-            <a href="cat.jpg">котик</a>
-     </span> 
+                        
+                        
+                        <div class="main-hamsters">
+                                <div class="hamster-card">
+    <div class="card-image">
+        <img width="100px" src="img/4.jfif">
+    
+    
     </div>
+    <div class="card-text">
+        <h4>поинтер</h4>
+        <p>прикольная псина </p>
+        <a href="#" class="card-button">подробнее</a>
+    </div> 
 
-    <div class="banner">
+           
+                    
+                    </div>
+                    <div class="hamster-card">
+                            <div class="card-image">
+                            <img width="100px" src="img/5.jfif">
+                            
+                            
+                            </div>
+                            <div class="card-text">
+                            <h4>сеттер </h4>
+                            <p>прикольная псина </p>
+                            <a href="#" class="card-button">подробнее</a>
+                            </div>
+                                </div>
+                     </div>
+                    
+                    
+                    
+    </main>
 
-    <div class="background-title">псины-супер</div>
-    </div>
-    <div> 
- <form> 
-     <div class="email">
-  введите почту:
-  <input type="text" name="email"> 
-  <input type="button" value="подтвердить">
-     </form>
-    </div>
-
-<div>
-        <form action="https://yandex.ru/search/">
-                <div class="search">
-             введите запрос:
-             <input type="text" name="text"> 
-             <input type="submit" value="подтвердить">
-            </form>
+    <footer class="footer" id="footer">
+            
         </div>
-        
-        </body>
+        <div> 
+     <form> 
+         <div class="email">
+      введите почту:
+      <input type="text" name="email"> 
+      <input type="button" value="подтвердить">
+         </form>
+        </div>
+    
+    <div>
+            <form action="https://yandex.ru/search/">
+                    <div class="search">
+                 введите запрос:
+                 <input type="text" name="text"> 
+                 <input type="submit" value="подтвердить">
+                </form>
+            </div>
+    </footer>
+
+    
 </html>
