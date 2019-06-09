@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>меню</title>
+</head>
+<body>
+    <style> 
+        .menu {
+              background: rgb(199, 142, 37);
+              font-family: 'segoe UI', tomato, greenyellow;
+              position: fixed;
+              width: 100% ;
+              font-size: 25px;
+              padding: 15px; 
+              border-bottom: 2px solid rgb(49, 44, 95)
+        }
+        
+        .menu-right {
+position: absolute;
+right: 40px;
+        }
+
+        .menu-left {
+font-weight: bold;
+color:black
+        }
+
+        .menu-right a {
+            color:floralwhite;
+            text-decoration: none;
+            margin-left: 20px 
+
+        }
+.menu-right a:hover {
+    color: red
+}
+        body {
+            margin: 0;
+            background-image: url(макароны.jpg);
+            font-family: 'segoe UI', Tahoma, geneva
+        }
+
+        .email {
+            display: inline-block;
+            margin-top: 80px;
+            color: rgb(21, 33, 68)
+        }
+
+        .email input {
+            border-block-start-color: rgb(0, 0, 0)
+        }
+        
+        .search {
+             margin: auto;
+            width: fit-content;
+             }
+
+             .banner {
+                 width:100%;
+                 height:600px;
+                 background-size: cover;
+             }
+
+             .banner-title {
+                 position: relative;
+                 margin: auto;
+                 width: fit-content;
+                 margin-top:300px;
+                 font-size: 50px;
+                 font-weight: 900;
+             }
+    </style>
+    <div class="menu">
+     <span class= "menu-left"> меню </span>
+     <span class="menu-right"> 
+            <a href="https://ya.ru"> яндекс</a> 
+            <a href="https://sites.google.com/view/firstsitesansanich/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE-%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C-%D1%82%D0%B0%D0%BA%D0%B0%D1%8F"> главная </a>
+            <a href="cat.jpg">котик</a>
+     </span> 
+    </div>
+
+    <div class="banner">
+
+    <div class="background-title">псины-супер</div>
+    </div>
+    <div> 
+ <form> 
+     <div class="email">
+  введите почту:
+  <input type="text" name="email"> 
+  <input type="button" value="подтвердить">
+     </form>
+    </div>
+
+<div>
+        <form action="https://yandex.ru/search/">
+                <div class="search">
+             введите запрос:
+             <input type="text" name="text"> 
+             <input type="submit" value="подтвердить">
+            </form>
+        </div>
+        
+        </body>
+</html>
